@@ -25,11 +25,12 @@ brew "wp-cli"
 # Development environment
 brew "httpd", restart_service: true
 brew "mysql@5.7", restart_service: true, link: true
-brew "php@5.6"
-brew "php@7.0"
+# brew "php@7.0"
 brew "php@7.1", link: false
-brew "php@7.2", restart_service: true, link: true
+brew "php@7.2", link: false
 brew "php@7.3", link: false
+brew "php@7.4", restart_service: true, link: true
+brew "php@8.0", link: false
 brew "dnsmasq", restart_service: true
 brew "composer"
 
@@ -45,32 +46,24 @@ brew "optipng"
 brew "nave"
 brew "yarn", args: ["without-node"]
 
-cask "1password"
-cask "adium"
-cask "caffeine"
+# Apps - see: https://formulae.brew.sh/cask/
+cask "visual-studio-code"
+cask "iterm2"
 cask "docker"
-cask "dropbox"
+cask "local"
+cask "tableplus" 
+cask "kaleidoscope"
 cask "firefox"
 cask "google-chrome"
-cask "google-chrome-canary"
-cask "google-drive-file-stream"
-cask "grandperspective"
-cask "iterm2"
-cask "kaleidoscope"
-cask "libreoffice"
-cask "owncloud"
-cask "postman"
-cask "sequel-pro"
-cask "sketch"
 cask "skype"
-cask "slack"
-cask "spectacle"
+cask "discord"
+cask "cozy-drive"
 cask "spotify"
-cask "teamviewer"
+cask "imageoptim"
+cask "handbrake"
+cask "spectacle"
 cask "typora"
-cask "visual-studio-code"
-cask "yemuzip"
-cask "zeplin"
+cask "pika"
 
 mas "Bear", id: 1091189122
 mas "Pages", id: 409201541

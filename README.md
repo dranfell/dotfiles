@@ -1,6 +1,6 @@
-# bleech/dotfiles
+# thomasnavarro/dotfiles
 
-Basic starting point for macos dotfiles for developers at bleech.
+Basic starting point for my personal dotfiles.
 
 ## Background
 
@@ -8,7 +8,7 @@ This script will give you a configured terminal environment with some nice defau
 
 [brew](https://brew.sh/) is used for installing command line tools, GUI applications through [brew cask](https://github.com/Homebrew/homebrew-cask), applications from the app store via [mas](https://github.com/mas-cli/mas) and fonts. All installed applications can be found in the `Brewfile`.
 
-The installed terminal is zsh with the plugin manager [zplug](https://github.com/zplug/zplug). Zplug lets you install zsh modules from nearly any source. Its configuration is done in `zshrc`. 
+The installed terminal is zsh with the plugin manager [zplug](https://github.com/zplug/zplug). Zplug lets you install zsh modules from nearly any source. Its configuration is done in `zshrc`.
 
 In addition to the basic zsh config, all files in the `./zsh` directory are also loaded. `zshrc` is symlinked to `~/.zshrc`.
 
@@ -19,21 +19,24 @@ The final part of these settings are sensible macos defaults. All of the setting
 ## Instructions
 
 1. Prepare Setup:
-    ```sh
-    cd ~
-    git clone git@github.com:bleech/dotfiles.git
-    cd dotfiles
-    ./bootstrap.sh
-    ```
+   ```sh
+   cd ~
+   git clone git@github.com:thomasnavarro/dotfiles.git
+   cd dotfiles
+   ./bootstrap.sh
+   ```
 2. Change default shell
-    - System Preferences -> Users & Groups
-    - Unlock edit mode
-    - Right click on your user -> Advanced Options
-    - Set `Login shell` to `/usr/local/bin/zsh`
+   - System Preferences -> Users & Groups
+   - Unlock edit mode
+   - Right click on your user -> Advanced Options
+   - Set `Login shell` to `/usr/local/bin/zsh`
 3. Install and symlink files
-    ```sh
-    # Open `iterm`
-    cd ~/dotfiles
-    ./install.sh
-    ```
+   ```sh
+   # Open `iterm`
+   cd ~/dotfiles
+   ./install.sh
+   ```
 
+## Thanks to
+
+A special thanks to the [Bleech](https://bleech.de/en/) teams for their awesome work. 🚀

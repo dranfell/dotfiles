@@ -1,0 +1,68 @@
+{
+    "material-icon-theme.showWelcomeMessage": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+
+    "editor.formatOnSave": true,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "underline",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    
+    "terminal.external.osxExec": "iterm.app",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.fontFamily": "Fira Mono For Powerline",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.minimumContrastRatio": 4.5,
+    "terminal.integrated.letterSpacing": 0.5,
+    
+    "twig-language-2.braceLine": true,
+    "twig-language-2.quoteConvert": "double",
+    "twig-language-2.tabSize": 4,
+    "twig-language-2.indentStyle": "space",
+    "twig-language-2.bracePadding": true,
+    "twig-language-2.preserveComment": true,
+    
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    
+    "projects.indentationSpaces": 2,
+    "projects.viewOpenInNewWindow": true,
+    "projects.checkPaths": true,
+    "projects.checkDirty": true,
+    
+    "better-comments.highlightPlainText": true,
+    
+    "scss.validate": false,
+    "css.validate": false,
+    "css.lint.important": "warning",
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.universalSelector": "warning",
+    "css.lint.boxModel": "warning",
+    "css.lint.emptyRules": "ignore",
+    
+    "eslint.format.enable": true,
+    "eslint.packageManager": "yarn",
+    
+    "prettier.packageManager": "yarn",
+    "prettier.vueIndentScriptAndStyle": true,
+    
+    "vetur.validation.template": false,
+
+    "html.format.endWithNewline": true,
+    
+    "php-cs-fixer.autoFixBySemicolon": true,
+    "php-cs-fixer.formatHtml": true,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.rules": "@Symfony",
+}
