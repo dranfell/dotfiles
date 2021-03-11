@@ -9,9 +9,8 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:1
 zplug "zsh-users/zsh-history-substring-search", defer:2
 
 zplug "modules/osx", from:prezto
-zplug "plugins/git",   from:oh-my-zsh
+zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/common-aliases", from:oh-my-zsh
-zplug "plugins/yarn", from:oh-my-zsh
 # zplug "modules/environment", from:prezto
 # zplug "modules/terminal", from:prezto
 # zplug "modules/editor", from:prezto
@@ -37,7 +36,7 @@ if ! zplug check --verbose; then
     fi
 fi
 
-zplug "~/dotfiles/zsh", from:local, use:"*.zsh"
+zplug "~/.dotfiles/zsh", from:local, use:"*.zsh"
 
 # zplug load --verbose
 zplug load
