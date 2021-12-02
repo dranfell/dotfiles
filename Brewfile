@@ -15,7 +15,6 @@ brew "findutils"
 brew "grep"
 brew "rsync"
 brew "git"
-brew "vim"
 brew "wget"
 brew "pwgen"
 brew "zsh"
@@ -23,16 +22,16 @@ brew "mas"
 brew "wp-cli"
 
 # Development environment
-brew "httpd", restart_service: true
-brew "mysql@5.7", restart_service: true, link: true
 # brew "php@7.0"
-brew "php@7.1", link: false
-brew "php@7.2", link: false
+# brew "php@7.1", link: false
+# brew "php@7.2", link: false
 brew "php@7.3", link: false
 brew "php@7.4", restart_service: true, link: true
 brew "php@8.0", link: false
-brew "dnsmasq", restart_service: true
 brew "composer"
+# brew "httpd", restart_service: true
+# brew "mysql@5.7", restart_service: true, link: true
+# brew "dnsmasq", restart_service: true
 
 # Image related
 brew "jpeg"
@@ -47,25 +46,29 @@ brew "nave"
 brew "yarn", args: ["without-node"]
 
 # Apps - see: https://formulae.brew.sh/cask/
-cask "visual-studio-code"
-cask "iterm2"
+cask "bitwarden"
+cask "cyberduck"
+cask "discord"
 cask "docker"
+cask "gas-mask"
+cask "handbrake"
+cask "imageoptim"
+cask "iterm2"
+cask "keka"
 cask "local"
-cask "tableplus" 
-cask "kaleidoscope"
+cask "microsoft-edge"
+cask "pika"
+cask "poedit"
+cask "sequel-ace"
+cask "spark"
+cask "spotify"
+cask "trello"
+cask "visual-studio-code"
 cask "firefox"
 cask "google-chrome"
-cask "skype"
-cask "discord"
-cask "cozy-drive"
-cask "spotify"
-cask "imageoptim"
-cask "handbrake"
-cask "spectacle"
-cask "typora"
+cask "notion"
 cask "pika"
 
-mas "Bear", id: 1091189122
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
