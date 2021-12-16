@@ -10,7 +10,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ln -s "$PWD/zshrc" "$HOME/.zshrc"
 ln -s "$PWD/gitconfig" "$HOME/.gitconfig"
-ln -s "$PWD/vscode_settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 
 # read -p "Enter your github email address" email
 # read -p "Enter your github name" name
@@ -20,5 +19,3 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle
-
-source ./macos

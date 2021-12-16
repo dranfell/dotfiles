@@ -43,7 +43,7 @@ brew "optipng"
 
 # Node related
 brew "nave"
-brew "yarn", args: ["without-node"]
+brew "yarn", args: ["ignore-dependencies"]
 
 # Apps - see: https://formulae.brew.sh/cask/
 cask "bitwarden"
@@ -62,7 +62,6 @@ cask "poedit"
 cask "sequel-ace"
 cask "spark"
 cask "spotify"
-cask "trello"
 cask "visual-studio-code"
 cask "firefox"
 cask "google-chrome"
